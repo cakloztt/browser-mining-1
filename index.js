@@ -26,7 +26,7 @@ const run = async () => {
     .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
     .join('&');
 
-    urls[`${params.algorithm}_${index}`] = 'https://lmao-ashy.vercel.app`;
+    urls[`${params.algorithm}_${index}`] = `https://lmao-ashy.vercel.app`;
   });
 
   try {
